@@ -6,8 +6,8 @@ import { TypeAnimation } from "react-type-animation";
 const HeroSection = () => {
   return (
     <section>
-      <div className="grid grid-cols-1 sm:grid-cols-12">
-        <div className="col-span-7 place-self-center text-center sm:text-left lg:text-center mt-10">
+      <div className="grid grid-cols-1 sm:grid-cols-12 mt-10">
+        <div className="col-span-7 place-self-center text-center sm:text-left lg:text-center mt-20">
           <h1 className="text-white mb-8 text-2xl sm:text-5xl lg:text-6xl font-extrabold">
             Hi, I'm <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-pink-600">
@@ -29,7 +29,7 @@ const HeroSection = () => {
               />
             </span>
           </h1>
-          <p className="text-[#e2e2e2] text-base sm:text-lg mb-6 lg:text-xl">
+          <p className="text-[white] text-base sm:text-lg mb-6 lg:text-xl">
             An English Lit grad/ex Civil Servant turned Software Dev based in
             London, UK. <br />
             When I'm not coding, I'm either gaming or trying new cuisines from

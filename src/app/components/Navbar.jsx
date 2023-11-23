@@ -25,14 +25,14 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-15 bg-[#121212] bg-opacity-100">
-      <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
+    <nav className="top-0 left-0 right-0 z-50 bg-[#121212] bg-opacity-100">
+      <div className="flex flex-wrap items-center justify-between lg:mr-20 lg:ml-5  px-4 py-2">
         <Link href={"/"}>
           <Image
             src="/images/IGsmall2.png"
             alt="logo image"
-            width={175}
-            height={100}
+            width={150}
+            height={150}
           />
         </Link>
         <div className="mobile-menu block md:hidden">

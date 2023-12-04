@@ -4,13 +4,15 @@ import ProjectCard from "./ProjectCard";
 const projectsData = [
   {
     id: 1,
-    title: "Whatever",
+    title: "Bubble",
     description: (
       <>
-        Designed to help children understand their emotions.
+        A tablet app that helps children understand and regulate their emotions.
+        It encourages connection between adult and child through a series of
+        activities and games.
         <br />
         <br />
-        Tech Stack: React, Next.js, PostgreSQL.
+        Tech Stack: React, Next.js, ChakraUI, Express, PostgreSQL.
       </>
     ),
     image: "/images/projects/BootRantMockup.png",
@@ -23,9 +25,9 @@ const projectsData = [
     title: "BootRant",
     description: (
       <>
-        BootRant is a mobile app that allows users to overcome their imposter
-        syndrome by privately "bragging" their achievements and "ranting" their
-        frustrations.
+        BootRant is a mobile journalling app that allows users to overcome their
+        imposter syndrome by privately "bragging" their achievements and
+        "ranting" their frustrations.
         <br />
         <br />
         Tech Stack: JavaScript, Node.js, Express, PostgreSQL.
@@ -42,7 +44,7 @@ const ProjectSection = () => {
   return (
     <>
       <h2 className="text-4xl font-bold text-white mt-4 mb-4">My Projects</h2>
-      <div>
+      <div className="grid md:grid-cols-2 gap-10 md:gap-14">
         {projectsData.map((project) => (
           <ProjectCard
             key={project.id}

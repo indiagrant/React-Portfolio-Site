@@ -17,7 +17,7 @@ const projectsData = [
     ),
     image: "/images/projects/Untitleddesign.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/indiagrant/BootRant",
     previewUrl: "/",
   },
   {
@@ -35,8 +35,8 @@ const projectsData = [
     ),
     image: "/images/projects/BootRantMockup.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/indiagrant/BootRant",
+    previewUrl: "https://boot-rant-app.onrender.com/",
   },
 ];
 

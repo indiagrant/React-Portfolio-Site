@@ -15,7 +15,7 @@ const projectsData = [
         Tech Stack: React, Next.js, ChakraUI, Express, PostgreSQL.
       </>
     ),
-    image: "/images/projects/BootRantMockup.png",
+    image: "/images/projects/Untitleddesign.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -42,9 +42,9 @@ const projectsData = [
 
 const ProjectSection = () => {
   return (
-    <>
+    <div>
       <h2 className="text-4xl font-bold text-white mt-4 mb-4">My Projects</h2>
-      <div className="grid md:grid-cols-2 gap-10 md:gap-14">
+      <div className="grid md:grid-cols-2 gap-10 md:gap-14 pb-20">
         {projectsData.map((project) => (
           <ProjectCard
             key={project.id}
@@ -56,7 +56,7 @@ const ProjectSection = () => {
           />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

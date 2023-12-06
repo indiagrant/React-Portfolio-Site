@@ -35,16 +35,21 @@ const AboutSection = () => {
   const [tab, setTab] = useState("skills");
   const [isPending, startTransition] = useTransition();
 
-  const handleTabChange = (id) => {
-    startTransition(() => {
-      setTab(id);
-    });
-  };
+  // const handleTabChange = (id) => {
+  //   startTransition(() => {
+  //     setTab(id);
+  //   });
+  // };
 
   return (
     <section className="text-white">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 mt-20">
-        <Image src="/images/profile.jpg" width={230} height={230} />
+      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 lg:mt-20">
+        <Image
+          src="/images/profile.jpg"
+          width={230}
+          height={230}
+          alt="about image"
+        />
         <div className="mt-4 lg:pt-12 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="md:text-base lg:text-lg sm:text-sm">
@@ -61,7 +66,7 @@ const AboutSection = () => {
             and clear-cut code, I'm eager to thrive in an environment that
             embraces progress and growth. <br></br>
           </p>
-          <div className="flex flex-row justify-start mt-8">
+          {/* <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
@@ -77,7 +82,7 @@ const AboutSection = () => {
           </div>
           <div className="mt-8 pb-8">
             {TAB_DATA.find((t) => t.id === tab).content}
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

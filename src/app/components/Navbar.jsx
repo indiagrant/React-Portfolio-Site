@@ -5,11 +5,16 @@ import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import MenuOverlay from "./MenuOverlay";
+import Logo from "/public/images/IGsmalltest.svg";
 
 const navLinks = [
   {
     title: "About",
     path: "#about",
+  },
+  {
+    title: "Skills",
+    path: "#skills",
   },
   {
     title: "Projects",
@@ -26,15 +31,12 @@ const Navbar = () => {
 
   return (
     <nav className="top-0 left-0 right-0 z-50 bg-[#121212] bg-opacity-100">
-      <div className="flex flex-wrap items-center justify-between lg:mr-20 lg:ml-5  px-4 py-2">
-        <Link href={"/"}>
-          <Image
-            src="/images/IGsmall2.png"
-            alt="logo image"
-            width={150}
-            height={150}
-          />
-        </Link>
+      <div className="flex flex-wrap items-center justify-between lg:mr-20 lg:ml-5 px-4 py-4 ">
+        <div className="pt-3 pl-5">
+          <Link href={"/"}>
+            <Image src={Logo} alt="logo image" />
+          </Link>
+        </div>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
             <button

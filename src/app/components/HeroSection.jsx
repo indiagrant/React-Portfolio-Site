@@ -32,7 +32,7 @@ const HeroSection = () => {
             in London, UK. <br />
           </p>
           <div>
-            <button className="mt-5 px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-pink-700 via-pink-500 to-pink-400 shadow-xl drop-shadow-md hover:scale-105 hover:shadow-xl text-white">
+            <button className="mt-5 mb-10 px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-pink-700 via-pink-500 to-pink-400 shadow-xl drop-shadow-md hover:scale-105 hover:shadow-xl text-white">
               Download CV
             </button>
           </div>

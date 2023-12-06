@@ -6,22 +6,22 @@ import Image from "next/image";
 
 const ContactSection = () => {
   return (
-    <section className="mt-20">
+    <section className="">
       <div>
         <h2 className="text-4xl font-bold text-white my-2 mb-5">
           Let's Connect!
         </h2>
-        <h3 className="text-[white] mb-4">
+        <p className="text-[white] mb-4 md:text-base lg:text-lg sm:text-sm">
           {""}
-          I'm always looking for new opportunities, so feel free to reach out
-          via my Linkedin or email!
-        </h3>
-        <div className="socials flex flex-row gap-2 mt-5">
+          I'm always looking for new opportunities and challenges, so feel free
+          to reach out!
+        </p>
+        <div className="socials flex flex-row gap-4 mt-5">
           <Link href="https://github.com/indiagrant">
-            <Image src={GithubIcon} alt="Github Icon" />
+            <Image src={GithubIcon} alt="Github Icon" className="w-8 h-8" />
           </Link>
           <Link href="https://www.linkedin.com/in/india-grant">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
+            <Image src={LinkedinIcon} alt="Linkedin Icon" className="w-8 h-8" />
           </Link>
         </div>
       </div>

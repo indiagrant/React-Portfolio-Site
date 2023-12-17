@@ -4,12 +4,12 @@ import ProjectCard from "./ProjectCard";
 const projectsData = [
   {
     id: 1,
-    title: "Bubble",
+    title: "Bubble - Children's Mindfulness App",
     description: (
       <div className="flex flex-col h-full">
-        A tablet app that helps children understand and regulate their emotions.
-        It encourages connection between adult and child through a series of
-        activities and games.
+        Mindfullness app that helps young children understand and regulate their
+        emotions. It encourages connection between adult and child through a
+        series of activities and exercises.
         <br />
         <br />
         Tech Stack: React, Next.js, ChakraUI, Express, PostgreSQL.
@@ -22,7 +22,7 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "BootRant",
+    title: "BootRant - Journalling App",
     description: (
       <div className="flex flex-col h-full">
         A mobile-first journalling app that allows users to overcome their
@@ -43,7 +43,7 @@ const projectsData = [
 const ProjectSection = () => {
   return (
     <div>
-      <h2 className="text-4xl font-bold text-white mt-4 mb-4">My Projects</h2>
+      <h2 className="text-4xl font-bold text-white mt-4 mb-6">My Projects</h2>
       <div className="grid md:grid-cols-2 gap-5 md:gap-5 pb-20">
         {projectsData.map((project) => (
           <ProjectCard

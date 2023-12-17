@@ -51,7 +51,7 @@ const AboutSection = () => {
           alt="about image"
         />
         <div className="mt-4 lg:pt-12 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold text-white mb-6">About Me</h2>
           <p className="md:text-base lg:text-lg sm:text-sm">
             I'm a Junior Full-Stack Developer who loves taking massive problems
             and going through them with a fine-tooth comb. <br></br>

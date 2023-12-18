@@ -9,7 +9,7 @@ const HeroSection = () => {
       <div className="grid grid-cols-1 sm:grid-cols-12 mt-10 pb-20">
         <div className="col-span-7 place-self-center text-center sm:text-left lg:text-center mt-20">
           <h1 className="text-white mb-8 text-2xl sm:text-5xl lg:text-6xl font-extrabold">
-            Hi, I'm India
+            Hi, I&apos;m India
             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-pink-600">
               <TypeAnimation

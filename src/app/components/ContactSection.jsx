@@ -9,12 +9,12 @@ const ContactSection = () => {
     <section className="">
       <div>
         <h2 className="text-4xl font-bold text-white my-2 mb-6">
-          Let's Connect!
+          Let&apos;s Connect!
         </h2>
         <p className="text-[white] mb-6 md:text-base lg:text-lg sm:text-sm">
           {""}
-          I'm always looking for new opportunities and challenges, so feel free
-          to reach out.
+          I&apos;m always looking for new opportunities and challenges, so feel
+          free to reach out.
         </p>
         <div className="socials flex flex-row gap-4 mt-5">
           <Link href="https://github.com/indiagrant">

@@ -53,8 +53,8 @@ const AboutSection = () => {
         <div className="mt-4 lg:pt-12 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-6">About Me</h2>
           <p className="md:text-base lg:text-lg sm:text-sm">
-            I'm a Junior Full-Stack Developer who loves taking massive problems
-            and going through them with a fine-tooth comb. <br></br>
+            I&apos;m a Junior Full-Stack Developer who loves taking massive
+            problems and going through them with a fine-tooth comb. <br></br>
             <br></br>
             In the ever-evolving landscape of technology, I find my passion
             grounded in the dynamism, creativity and logic that Software
@@ -63,7 +63,7 @@ const AboutSection = () => {
             <br></br>
             <br></br> As a former Humanities graduate, I look to bring a
             different perspective to development. With a focus on detailed, tidy
-            and clear-cut code, I'm eager to thrive in an environment that
+            and clear-cut code, I&apos;m eager to thrive in an environment that
             embraces progress and growth. <br></br>
           </p>
           {/* <div className="flex flex-row justify-start mt-8">

@@ -26,8 +26,8 @@ const projectsData = [
     description: (
       <div className="flex flex-col h-full">
         A mobile-first journalling app that allows users to overcome their
-        imposter syndrome by privately "bragging" their achievements and
-        "ranting" their frustrations.
+        imposter syndrome by privately &quot;bragging&quot; their achievements
+        and &quot;ranting&quot; their frustrations.
         <br />
         <br />
         Tech Stack: JavaScript, Node.js, Express, PostgreSQL.

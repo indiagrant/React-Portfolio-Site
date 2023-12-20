@@ -15,7 +15,7 @@ const projectsData = [
         Tech Stack: React, Next.js, ChakraUI, PostgreSQL.
       </div>
     ),
-    image: "/images/projects/BootRantMockup.png",
+    image: "/images/projects/Test.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/indiagrant/bubble_app",
     previewUrl: "https://bubble-app-two.vercel.app/",

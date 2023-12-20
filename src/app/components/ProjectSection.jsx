@@ -17,8 +17,8 @@ const projectsData = [
     ),
     image: "/images/projects/BootRantMockup.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/indiagrant/BootRant",
-    previewUrl: "/",
+    gitUrl: "https://github.com/indiagrant/bubble_app",
+    previewUrl: "https://bubble-app-two.vercel.app/",
   },
   {
     id: 2,

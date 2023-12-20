@@ -15,7 +15,7 @@ const projectsData = [
         Tech Stack: React, Next.js, ChakraUI, PostgreSQL.
       </div>
     ),
-    image: "/images/projects/Test3.png",
+    image: "/images/projects/BubbleMockup.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/indiagrant/bubble_app",
     previewUrl: "https://bubble-app-two.vercel.app/",
@@ -33,7 +33,7 @@ const projectsData = [
         Tech Stack: JavaScript, Node.js, Express, PostgreSQL.
       </div>
     ),
-    image: "/images/projects/Test4.png",
+    image: "/images/projects/BootRantMockup.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/indiagrant/BootRant",
     previewUrl: "https://boot-rant-app.onrender.com/",

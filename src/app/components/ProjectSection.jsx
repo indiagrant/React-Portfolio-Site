@@ -15,7 +15,7 @@ const projectsData = [
         Tech Stack: React, Next.js, ChakraUI, PostgreSQL.
       </div>
     ),
-    image: "/images/projects/Test.png",
+    image: "/images/projects/Test3.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/indiagrant/bubble_app",
     previewUrl: "https://bubble-app-two.vercel.app/",
@@ -33,7 +33,7 @@ const projectsData = [
         Tech Stack: JavaScript, Node.js, Express, PostgreSQL.
       </div>
     ),
-    image: "/images/projects/BootRantMockup.png",
+    image: "/images/projects/Test4.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/indiagrant/BootRant",
     previewUrl: "https://boot-rant-app.onrender.com/",
@@ -44,7 +44,7 @@ const ProjectSection = () => {
   return (
     <div>
       <h2 className="text-4xl font-bold text-white mt-4 mb-6">My Projects</h2>
-      <div className="grid md:grid-cols-2 gap-5 md:gap-5 pb-20">
+      <div className="grid md:grid-cols-2 gap-10 md:gap-10 pb-20">
         {projectsData.map((project) => (
           <ProjectCard
             key={project.id}

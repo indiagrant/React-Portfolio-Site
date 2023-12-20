@@ -12,7 +12,7 @@ const projectsData = [
         series of activities and exercises.
         <br />
         <br />
-        Tech Stack: React, Next.js, ChakraUI, Express, PostgreSQL.
+        Tech Stack: React, Next.js, ChakraUI, PostgreSQL.
       </div>
     ),
     image: "/images/projects/BootRantMockup.png",

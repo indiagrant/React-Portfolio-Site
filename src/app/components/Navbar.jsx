@@ -30,7 +30,7 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="top-0 left-0 right-0 z-50 bg-[#121212] bg-opacity-100">
+    <nav className="fixed top-0 left-0 right-0 z-50 border-b border-[#33353F] bg-[#121212] bg-opacity-100">
       <div className="flex flex-wrap items-center justify-between lg:mr-20 lg:ml-5 px-4 py-4 ">
         <div className="pt-3 pl-5">
           <Link href={"/"}>

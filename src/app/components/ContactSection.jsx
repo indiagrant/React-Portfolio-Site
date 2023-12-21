@@ -18,10 +18,18 @@ const ContactSection = () => {
         </p>
         <div className="socials flex flex-row gap-4 mt-5">
           <Link href="https://github.com/indiagrant">
-            <Image src={GithubIcon} alt="Github Icon" className="w-8 h-8" />
+            <Image
+              src={GithubIcon}
+              alt="Github Icon"
+              className="w-8 h-8 hover:scale-105 hover:shadow-xl"
+            />
           </Link>
           <Link href="https://www.linkedin.com/in/india-grant">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" className="w-8 h-8" />
+            <Image
+              src={LinkedinIcon}
+              alt="Linkedin Icon"
+              className="w-8 h-8 hover:scale-105 hover:shadow-xl"
+            />
           </Link>
         </div>
       </div>

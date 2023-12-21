@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const ContactSection = () => {
   return (
-    <section className="">
+    <section className="" id="contact">
       <div>
         <h2 className="text-4xl font-bold text-white my-2 mb-6">
           Let&apos;s Connect!

@@ -42,7 +42,7 @@ const projectsData = [
 
 const ProjectSection = () => {
   return (
-    <div>
+    <div id="projects">
       <h2 className="text-4xl font-bold text-white mt-4 mb-6">My Projects</h2>
       <div className="grid md:grid-cols-2 gap-10 md:gap-10 pb-20">
         {projectsData.map((project) => (

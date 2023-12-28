@@ -43,11 +43,11 @@ const AboutSection = () => {
 
   return (
     <section className="text-white" id="about">
-      <h2 className="text-4xl font-bold text-white text-center lg:mt-20 lg:pt-10">
+      <h2 className="text-4xl font-bold text-white text-center lg:mt-20 mb-10 lg:pt-10">
         About Me
       </h2>
       <div className="md:grid md:grid-cols-2 gap-8 items-center xl:gap-48 sm:py-16 lg:mb-20">
-        <div className="lg:pt-12 md:mt-0 text-left flex flex-col h-full md:col-span-1">
+        <div className="lg:pt-12 md:mt-0 text-left flex flex-col h-full ">
           <p className="md:text-base lg:text-lg sm:text-sm mb-6">
             I&apos;m a Junior Full-Stack Developer who loves taking massive
             problems and going through them with a fine-tooth comb. <br></br>

@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const ContactSection = () => {
   return (
-    <section className="" id="contact">
+    <section className="text-center" id="contact">
       <div>
         <h2 className="text-4xl font-bold text-white my-2 mb-10">
           Let&apos;s Connect!
@@ -16,7 +16,7 @@ const ContactSection = () => {
           I&apos;m always looking for new opportunities and challenges, so feel
           free to reach out.
         </p>
-        <div className="socials flex flex-row gap-4 mt-5">
+        <div className="socials flex flex-row gap-4 mt-5 justify-center">
           <Link href="https://github.com/indiagrant">
             <Image
               src={GithubIcon}

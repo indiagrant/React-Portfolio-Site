@@ -32,7 +32,7 @@ const projectsData = [
       </div>
     ),
     image: "/images/projects/BootRantMockup.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Mobile"],
     gitUrl: "https://github.com/indiagrant/BootRant",
     previewUrl: "https://boot-rant-app.onrender.com/",
   },
@@ -75,8 +75,10 @@ const projectsData = [
 const ProjectSection = () => {
   return (
     <div id="projects">
-      <h2 className="text-4xl font-bold text-white mt-4 mb-10">Projects</h2>
-      <div className="grid md:grid-cols-2 gap-10 md:gap-10 lg:pb-20 mb-20">
+      <h2 className="text-4xl font-bold text-white mt-4 mb-10 text-center">
+        Projects
+      </h2>
+      <div className="grid md:grid-cols-2 gap-12 md:gap-12 lg:pb-20 mb-20">
         {projectsData.map((project) => (
           <ProjectCard
             key={project.id}

@@ -43,16 +43,10 @@ const AboutSection = () => {
 
   return (
     <section className="text-white" id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 lg:mt-20">
-        <Image
-          src="/images/profile.jpg"
-          width={230}
-          height={230}
-          alt="about image"
-        />
-        <div className="mt-4 lg:pt-12 md:mt-0 text-left flex flex-col h-full">
+      <div className="md:grid md:grid-cols-2 gap-8 items-center xl:gap-48 sm:py-16 lg:mt-20">
+        <div className="lg:pt-12 md:mt-0 text-left flex flex-col h-full md:col-span-1">
           <h2 className="text-4xl font-bold text-white mb-6">About Me</h2>
-          <p className="md:text-base lg:text-lg sm:text-sm">
+          <p className="md:text-base lg:text-lg sm:text-sm mb-6">
             I&apos;m a Junior Full-Stack Developer who loves taking massive
             problems and going through them with a fine-tooth comb. <br></br>
             <br></br>
@@ -66,7 +60,18 @@ const AboutSection = () => {
             and clear-cut code, I&apos;m eager to thrive in an environment that
             embraces progress and growth. <br></br>
           </p>
-          {/* <div className="flex flex-row justify-start mt-8">
+        </div>
+        <div className="flex items-center justify-center h-full">
+          <Image
+            src="/images/profile.jpg"
+            width={230}
+            height={230}
+            alt="about image"
+            className="mb-20 sm:mb-0"
+          />
+        </div>
+
+        {/* <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
@@ -83,7 +88,6 @@ const AboutSection = () => {
           <div className="mt-8 pb-8">
             {TAB_DATA.find((t) => t.id === tab).content}
           </div> */}
-        </div>
       </div>
     </section>
   );

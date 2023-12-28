@@ -7,9 +7,8 @@ const projectsData = [
     title: "Bubble",
     description: (
       <div className="flex flex-col h-full">
-        Mindfullness app that helps young children understand and regulate their
-        emotions. It encourages connection between adult and child through a
-        series of activities and exercises.
+        Children&apos;s mindfullness app. <br></br>Delivered from ideation to
+        MVP in a four week team.
         <br />
         <br />
         React | Next.js | ChakraUI | Node.js | PostgreSQL | Playwright
@@ -25,9 +24,8 @@ const projectsData = [
     title: "BootRant",
     description: (
       <div className="flex flex-col h-full">
-        A mobile-first journalling app that allows users to overcome their
-        imposter syndrome by privately &quot;bragging&quot; their achievements
-        and &quot;ranting&quot; their frustrations.
+        A mobile-first journalling app. <br></br>Designed, developed and
+        delivered in a one week team.
         <br />
         <br />
         JavaScript | Node.js | Express | PostgreSQL

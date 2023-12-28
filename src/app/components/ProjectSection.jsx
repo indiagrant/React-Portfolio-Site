@@ -50,12 +50,12 @@ const projectsData = [
     ),
     image: "/images/projects/PortfolioMockup.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/indiagrant/React-Portfolio-Site",
+    previewUrl: "https://indiagrant.vercel.app/",
   },
   {
     id: 4,
-    title: "Keeping Tabs",
+    title: "KeepingTabs",
     description: (
       <div className="flex flex-col h-full">
         Coming Soon...<br></br>Solo project using external APIs
@@ -65,7 +65,7 @@ const projectsData = [
         PostgreSQL
       </div>
     ),
-    image: "/images/projects/BattleshipsMockup.png",
+    image: "/images/projects/KeepingTabsMockup.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",

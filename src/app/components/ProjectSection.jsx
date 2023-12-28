@@ -13,7 +13,7 @@ const projectsData = [
         to MVP in a four week team.
         <br />
         <br />
-        React | NextJS | ChakraUI | NodeJS | PostgreSQL | Playwright
+        React - NextJS - ChakraUI - NodeJS - PostgreSQL - Playwright
       </div>
     ),
     image: "/images/projects/BubbleMockup.png",
@@ -30,7 +30,7 @@ const projectsData = [
         delivered in a one week team.
         <br />
         <br />
-        JavaScript | NodeJS | Express | PostgreSQL
+        JavaScript - NodeJS - Express - PostgreSQL
       </div>
     ),
     image: "/images/projects/BootRantMockup.png",
@@ -47,7 +47,7 @@ const projectsData = [
         Designed and developed myself using TailwindCSS.
         <br />
         <br />
-        React | NextJS | TailwindCSS | JavaScript
+        React - NextJS - TailwindCSS - JavaScript
       </div>
     ),
     image: "/images/projects/PortfolioMockup.png",
@@ -63,7 +63,7 @@ const projectsData = [
         Coming Soon...<br></br>Solo project using external APIs
         <br />
         <br />
-        React | NextJS | TailwindCSS | JavaScript | NodeJS | Express |
+        React - NextJS - TailwindCSS - JavaScript - NodeJS - Express -
         PostgreSQL
       </div>
     ),

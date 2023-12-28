@@ -12,7 +12,7 @@ const projectsData = [
         series of activities and exercises.
         <br />
         <br />
-        Tech Stack: React, Next.js, ChakraUI, PostgreSQL.
+        React | Next.js | ChakraUI | PostgreSQL
       </div>
     ),
     image: "/images/projects/BubbleMockup.png",
@@ -30,7 +30,7 @@ const projectsData = [
         and &quot;ranting&quot; their frustrations.
         <br />
         <br />
-        Tech Stack: JavaScript, Node.js, Express, PostgreSQL.
+        JavaScript | Node.js | Express | PostgreSQL
       </div>
     ),
     image: "/images/projects/BootRantMockup.png",

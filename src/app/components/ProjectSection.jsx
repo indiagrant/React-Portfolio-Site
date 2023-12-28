@@ -12,7 +12,7 @@ const projectsData = [
         series of activities and exercises.
         <br />
         <br />
-        React | Next.js | ChakraUI | PostgreSQL
+        React | Next.js | ChakraUI | Node.js | PostgreSQL | Playwright
       </div>
     ),
     image: "/images/projects/BubbleMockup.png",

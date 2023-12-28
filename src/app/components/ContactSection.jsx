@@ -8,7 +8,7 @@ const ContactSection = () => {
   return (
     <section className="" id="contact">
       <div>
-        <h2 className="text-4xl font-bold text-white my-2 mb-6">
+        <h2 className="text-4xl font-bold text-white my-2 mb-10">
           Let&apos;s Connect!
         </h2>
         <p className="text-[white] mb-6 md:text-base lg:text-lg sm:text-sm">

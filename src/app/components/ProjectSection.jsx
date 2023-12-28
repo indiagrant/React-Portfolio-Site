@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 const projectsData = [
   {
     id: 1,
-    title: "Bubble - Children's Mindfulness App",
+    title: "Bubble",
     description: (
       <div className="flex flex-col h-full">
         Mindfullness app that helps young children understand and regulate their
@@ -22,7 +22,7 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "BootRant - Journalling App",
+    title: "BootRant",
     description: (
       <div className="flex flex-col h-full">
         A mobile-first journalling app that allows users to overcome their

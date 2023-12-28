@@ -7,11 +7,11 @@ const projectsData = [
     title: "Bubble",
     description: (
       <div className="flex flex-col h-full">
-        Children&apos;s mindfullness app. <br></br>Delivered from ideation to
-        MVP in a four week team.
+        React children&apos;s mindfullness app. <br></br>Delivered from ideation
+        to MVP in a four week team.
         <br />
         <br />
-        React | Next.js | ChakraUI | Node.js | PostgreSQL | Playwright
+        React | NextJS | ChakraUI | NodeJS | PostgreSQL | Playwright
       </div>
     ),
     image: "/images/projects/BubbleMockup.png",
@@ -24,17 +24,51 @@ const projectsData = [
     title: "BootRant",
     description: (
       <div className="flex flex-col h-full">
-        A mobile-first journalling app. <br></br>Designed, developed and
+        A mobile-first JS journalling app. <br></br>Designed, developed and
         delivered in a one week team.
         <br />
         <br />
-        JavaScript | Node.js | Express | PostgreSQL
+        JavaScript | NodeJS | Express | PostgreSQL
       </div>
     ),
     image: "/images/projects/BootRantMockup.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/indiagrant/BootRant",
     previewUrl: "https://boot-rant-app.onrender.com/",
+  },
+  {
+    id: 3,
+    title: "Portfolio",
+    description: (
+      <div className="flex flex-col h-full">
+        My React portfolio site.<br></br>
+        Designed and developed myself using TailwindCSS.
+        <br />
+        <br />
+        React | NextJS | TailwindCSS | JavaScript
+      </div>
+    ),
+    image: "/images/projects/PortfolioMockup.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 4,
+    title: "Keeping Tabs",
+    description: (
+      <div className="flex flex-col h-full">
+        Coming Soon...<br></br>Solo project using external APIs
+        <br />
+        <br />
+        React | NextJS | TailwindCSS | JavaScript | NodeJS | Express |
+        PostgreSQL
+      </div>
+    ),
+    image: "/images/projects/BattleshipsMockup.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
   },
 ];
 

@@ -67,7 +67,7 @@ const AboutSection = () => {
             width={230}
             height={230}
             alt="about image"
-            className="mb-20 sm:mb-0"
+            className="rounded-xl mb-20 sm:mb-0"
           />
         </div>
 

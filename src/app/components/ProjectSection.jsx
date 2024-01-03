@@ -26,8 +26,8 @@ const projectsData = [
     title: "BootRant",
     description: (
       <div className="flex flex-col h-full">
-        A mobile-first JS journalling app. <br></br>Designed, developed and
-        delivered in a one week team.
+        A mobile JS journalling app. <br></br>Designed, developed and delivered
+        in a one week team.
         <br />
         <br />
         JavaScript - NodeJS - Express - PostgreSQL

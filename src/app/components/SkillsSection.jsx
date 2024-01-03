@@ -6,7 +6,7 @@ const SkillsSection = () => {
       <h1 className="text-4xl font-bold text-center text-white mb-10">
         Skills
       </h1>
-      <ul className="flex flex-wrap gap-5 justify-center items-center text-[white] md:text-lg lg:text-xl lg:pb-1 lg:pt-10 sm:text-md ">
+      <ul className="flex flex-wrap gap-5 sm:gap-2 justify-center items-center text-[white] sm:text-sm md:text-lg lg:text-xl lg:pb-1 lg:pt-10">
         <li className="bg-pink-500 p-2 rounded-full text-center w-32">
           JavaScript
         </li>

@@ -33,11 +33,11 @@ const HeroSection = () => {
             Software Developer based in London, UK. <br />
           </p>
           <div>
-            <Link href="/IndiaGrantCV.pdf" passHref target="_blank">
+            {/* <Link href="/IndiaGrantCV.pdf" passHref target="_blank">
               <button className="mt-5 mb-10 px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-pink-700 via-pink-500 to-pink-400 shadow-xl drop-shadow-md hover:scale-105 hover:shadow-xl text-white">
                 View My CV
               </button>
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">

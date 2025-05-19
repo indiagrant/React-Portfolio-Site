@@ -15,7 +15,7 @@ const HeroSection = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-pink-600">
               <TypeAnimation
                 sequence={[
-                  "a full-stack developer",
+                  "a software engineer",
                   1500,
                   "a problem solver",
                   1500,
@@ -30,7 +30,7 @@ const HeroSection = () => {
           </h1>
           <p className="text-[white] text-base sm:text-lg mb-6 lg:text-xl mt-10">
             An English Literature graduate and former Civil Servant turned
-            Software Developer based in London, UK. <br />
+            Software Engineer based in London, UK. <br />
           </p>
           <div>
             {/* <Link href="/IndiaGrantCV.pdf" passHref target="_blank">

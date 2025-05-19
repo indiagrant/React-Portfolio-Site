@@ -49,12 +49,12 @@ const AboutSection = () => {
       <div className="md:grid md:grid-cols-2 gap-8 items-center xl:gap-48 sm:py-16 lg:mb-20">
         <div className="lg:pt-12 md:mt-0 text-left flex flex-col h-full ">
           <p className="md:text-base lg:text-lg sm:text-sm mb-6">
-            I&apos;m a Junior Full-Stack Developer who loves taking massive
-            problems and going through them with a fine-tooth comb. <br></br>
+            I&apos;m a Software Engineer who loves taking massive problems and
+            going through them with a fine-tooth comb. <br></br>
             <br></br>
             In the ever-evolving landscape of technology, I find my passion
-            grounded in the dynamism, creativity and logic that Software
-            Development demands. The constant innovation fuels my commitment to
+            grounded in the dynamism, creativity and adaptiveness that software
+            development demands. The constant innovation fuels my commitment to
             a never-ending learning journey.
             <br></br>
             <br></br> As a former Humanities graduate, I look to bring a
